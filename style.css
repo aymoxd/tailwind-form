@@ -1,0 +1,4 @@
+#point{
+    pointer-events: none;
+    transition: transform 0.09s linear;
+}

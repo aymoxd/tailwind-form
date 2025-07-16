@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body class="flex bg-gray-800 relative overflow-hidden h-screen justify-center items-center ">
+   <form class="flex  bg-slate-50 w- justify-center items-center p-3 rounded-lg px-3 space-x-4" action="">
+                     <!--her image-->
+         <div class="flex flex-col pt-10 bg-[url(img/bg.png)] p-5 rounded-md w-5/6 h-120 bg-cover bg-center">
+            <h1 class="text-4xl text-white font-bold ">Create your Account</h1>
+            <p class="text-gray-50 mt-5">Share your artwork and Get projects!</p>
+         </div>
+                     <!--her image-->
+        <div class=" w-5/6 flex flex-col">
+            <h2 class="text-center font-bold text-2xl">Sign Up</h2>
+            <input class="w-full border-1 border-solid border-gray-400 transition-all duration-300 ease-in-out mt-4 p-1 placeholder:text-gray-400 focus:border-gray-800 focus:outline-none rounded-sm" type="text" placeholder="First name">
+            <input class="w-full border-1 border-solid border-gray-400 transition-all duration-300 ease-in-out mt-4 p-1 placeholder:text-gray-400 focus:border-gray-800 focus:outline-none rounded-sm" type="text" placeholder="Last name">
+            <input class="w-full border-1 border-solid border-gray-400 transition-all duration-300 ease-in-out mt-4 p-1 placeholder:text-gray-400 focus:border-gray-800 focus:outline-none rounded-sm" type="email" placeholder="Email Adress">
+            <input class="w-full border-1 border-solid border-gray-400 transition-all duration-300 ease-in-out mt-4 p-1 placeholder:text-gray-400 focus:border-gray-800 focus:outline-none rounded-sm" type="password" placeholder="Password">
+            <div class="my-4 flex items-center gap-2" >
+               <input id="ra" type="radio">
+            <label for="ra" class="underline text-sm"><a href="#">Accepter Terms & Conditions</a></label> 
+            </div>
+           <button class="bg-gradient-to-r from-slate-900 to-gray-950 text-white py-1 rounded-sm  cursor-pointer">Join us <i class="ri-arrow-right-line transition-transform duration-200 hover:translate-x-2"></i></button>
+            <div class="flex items-center my-1 justify-between">
+                <span class="bg-gray-400 w- h-0.5 flex-1 "></span>
+                <p class="text-center mx-2">or</p>
+                <span class="bg-gray-400 w- h-0.5 flex-1 "></span>
+            </div>
+            <div>
+                <button class="my-1 bg-white border-1 cursor-pointer transition-all duration-300 ease-in-out hover:bg-gradient-to-r from-slate-900 to-gray-900 hover:text-white border-gray-400 w-full py-1 rounded-sm"><i class="ri-google-fill"></i>  Sign up with Google</button>
+                <button class="my-1 bg-white border-1 cursor-pointer transition-all duration-300 ease-in-out hover:bg-gradient-to-r from-slate-900 to-gray-900 hover:text-white border-gray-400 w-full py-1 rounded-sm"><i class="ri-apple-fill"></i> Sign up with Apple</button>    
+            </div>
+        </div>
+    </form>
+   
+
+    <script src="app.js"></script>
+</body>
+</html>
